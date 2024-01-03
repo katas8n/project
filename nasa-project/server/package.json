@@ -1,0 +1,22 @@
+{
+  "name": "nasa_mission_control_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server",
+  "scripts": {
+    "start:server": "PORT=4000 nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.2"
+  }
+}
