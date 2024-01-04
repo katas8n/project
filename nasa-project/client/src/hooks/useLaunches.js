@@ -50,7 +50,7 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
 
   const abortLaunch = useCallback(async (id) => {
     const response = await httpAbortLaunch(id);
-
+    
     const success = response.ok;
     if (success) {
       getLaunches();
