@@ -22,7 +22,7 @@ server.on('request', (req,res) => {
     const postfixForm = urlParts[2];
 
     res.writeHead(200,{
-        "Content-Type" : "application/json",
+        "Content-Type": "application/json",
     });
 
     if(req.url.length === 3 && req.method === "GET") {
@@ -39,8 +39,8 @@ server.on('request', (req,res) => {
         })
     } else if(req.url === "/" && req.method === "GET"){    
         res.end(JSON.stringify({
-            id : 1,
-            name : "John"
+            id: 1,
+            name: "John"
         }));
     }
 })

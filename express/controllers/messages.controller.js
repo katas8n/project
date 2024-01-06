@@ -4,8 +4,8 @@ function postMessage(req,resp) {
     if(!req.body.text) {  return res.status(404).json({error : "Error 404!"}); }
 
     const newMessage = {
-        id : messages.length,
-        text : req.body.text
+        id: messages.length,
+        text: req.body.text
     };
     messages.push(newMessage);
 

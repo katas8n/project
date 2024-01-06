@@ -13,7 +13,7 @@ const launch = {
 
 let latestFlightNumber = launch.flightNumber;
 
-launches.set(launch.flightNumber ,launch);
+launches.set(launch.flightNumber, launch);
 
 function addNewLaunch(launch) {
     launches.set(

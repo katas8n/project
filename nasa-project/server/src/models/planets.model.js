@@ -35,4 +35,4 @@ function loadPlanetsData() {
 
 
 
-module.exports = { planets ,loadPlanetsData }
+module.exports = { planets, loadPlanetsData }
